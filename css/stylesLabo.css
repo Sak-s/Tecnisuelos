@@ -1,0 +1,158 @@
+.hv-background {
+    background: #dcebfc;
+    
+}
+
+.nav-link {
+    text-align: right;
+}
+
+.navbar-nav {
+    gap: 60px;
+}
+
+.btn-primary {
+    --bs-btn-bg: #304a6e;
+    --bs-btn-hover-bg: #668dc0;
+    --bs-btn-border-color: none;
+    --bs-btn-border-radius: 10.375rem;
+}
+
+.btn-secondary {
+    --bs-btn-bg: #bdd6ff;
+    --bs-btn-hover-bg: #ebf2fc;
+    --bs-btn-border-color: none;
+    --bs-btn-border-radius: 10.375rem;
+}
+
+.style-title {
+    font-size: 4.5rem;
+}
+
+.style-subtitle {
+    font-size: 3.0rem;
+    font-family: serif;
+}
+
+.style-subtitle1 {
+    font-family: cursive;
+    ;
+}
+
+f .text {
+    margin-right: 400px;
+    margin-left: 420px;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #bdd6ff;
+    opacity: 80%;
+
+
+}
+
+.title {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 100px
+}
+
+
+.imgUsuario {
+    width: 30px;
+    margin-left: 1350px;
+
+
+}
+
+body {
+    background: url(../Imagenes/fondo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.contenedoor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+tr {
+    text-align: center;
+}
+
+th,
+td {
+    border: solid 1px rgb(0, 0, 0);
+}
+
+table {
+    background-color: azure;
+    color: #000;
+    font-size: 14px;
+    table-layout: fixed;
+    border-collapse: collapse;
+
+}
+
+thead {
+    background: #8eacd4;
+
+}
+
+th {
+    padding: 20px 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+td {
+    padding: 15px;
+    border-bottom: olid 3px rgb(0, 0, 0);
+}
+
+tbody tr {
+    cursor: pointer;
+
+}
+
+tbody tr:hover {
+    background: #afc2db;
+
+}
+
+.text-center {
+    text-align: center;
+    margin: 80px;
+    border-radius: 180px;
+    color: #000;
+    background-color: #bdd6ff;
+    font-family: serif;
+}
+
+.footer-login {
+    margin-block-start: 10px;
+    position: center;
+    bottom: 5;
+    width: 100%;
+    height: 30px;
+    background-color: #d3d1d1;
+    text-align: center;
+    font-size: 12px;
+    color: #000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: serif;
+}

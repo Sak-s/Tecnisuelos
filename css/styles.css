@@ -1,0 +1,103 @@
+.hv-background {
+    background:   #dcebfc85;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
+
+.nav-link{text-align: right;}
+
+.navbar-nav {
+    gap: 60px;
+}
+.carousel-inner div img{
+    width: 100%;
+}
+.container-navigator #login{
+    margin-left: 90px; 
+}
+div .carousel-caption{
+    height: 100vh;
+    font-size: xx-large;
+    padding: 0;
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;   
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    font-family: serif;
+    
+}
+.carousel-caption:hover{
+    color: black;
+}
+#comceptos{    
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+#vision {
+
+    font-size: small;
+    padding: 30px;
+    color:white;
+    text-align: center;
+    background-color: #668dc0;
+}
+#mision{
+
+    font-size: small;
+    padding: 30px;
+    color:white;
+    text-align: center;
+    background-color: #304a6e;
+}
+
+.btn-primary {
+    --bs-btn-bg: #304a6e;
+    --bs-btn-hover-bg: #668dc0;
+    color: #fff;
+    --bs-btn-border-color: none;
+    --bs-btn-border-radius: 10.375rem;
+}
+
+.btn-secondary {
+    --bs-btn-bg: #bdd6ff;
+    --bs-btn-hover-bg: #ebf2fc;
+    --bs-btn-border-color: none;
+    --bs-btn-border-radius: 10.375rem;
+}
+
+.style-title {
+    font-size: 4.5rem;
+}
+
+.style-subtitle{
+    font-size: 3.0rem;
+    font-family: serif;
+}
+.style-subtitle1{
+    font-family: cursive;;
+}
+.footer-login {
+    position: center;
+    bottom: 5;
+    width: 100%;
+    height: 30px;
+    background-color: #d3d1d1;
+    text-align: center;
+    font-size: 12px;
+    color: #000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: serif;
+}

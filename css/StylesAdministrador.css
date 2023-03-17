@@ -1,0 +1,212 @@
+.hv-background {
+    background: #dcebfc85;
+}
+.background {
+    background: #add2fc85;
+}
+.background-cuadro {
+    background: #ffffffa8;
+}
+
+
+.nav-link {
+    text-align: right;
+}
+
+.navbar-nav {
+    gap: 60px;
+}
+
+.btn-primary {
+    --bs-btn-bg: #304a6e;
+    --bs-btn-hover-bg: #668dc0;
+    --bs-btn-border-color: none;
+    --bs-btn-border-radius: 10.375rem;
+}
+
+.btn-secondary {
+    --bs-btn-bg: #bdd6ff;
+    --bs-btn-hover-bg: #ebf2fc;
+    --bs-btn-border-color: none;
+    --bs-btn-border-radius: 10.375rem;
+}
+
+.style-title {
+    font-size: 4.5rem;
+}
+
+.style-subtitle {
+    font-size: 3.0rem;
+    font-family: serif;
+}
+
+.style-subtitle1 {
+    font-family: cursive;
+    ;
+}
+
+.profile-img {
+    height: auto;
+    width: 250px;
+    border-radius: 80px;
+    gap: 5px;
+}
+
+.text-center {
+    text-align: center;
+    margin: 80px;
+    border-radius: 180px;
+    color: #000;
+    background-color: #bdd6ff;
+    font-family: serif;
+}
+
+.table-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: serif;
+}
+
+.conteiner {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+table {
+    color: #000;
+    font-size: 15px;
+    table-layout: fixed;
+    border-collapse: collapse;
+    text-align: center;
+    margin: 15px;
+}
+
+thead {
+    background: #c6dafad2;
+}
+
+tbody tr {
+    cursor: pointer;
+}
+
+tbody tr:hover {
+    background: #bdd6ff;
+}
+
+.footer-login {
+    margin-block-start: 285px;
+    position: center;
+    bottom: 5;
+    width: 100%;
+    height: 20px;
+    background-color: #d3d1d1;
+    text-align: center;
+    font-size: 10px;
+    color: #000;
+    padding-top: 4px;
+    padding-bottom: 10px;
+    font-family: serif;
+}
+
+.g-10 {
+    gap: 40px;
+}
+
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.animated:hover {
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+
+
+
+@-webkit-keyframes tada {
+    0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+
+    10%,
+    20% {
+        -webkit-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+        transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+    }
+
+    30%,
+    50%,
+    70%,
+    90% {
+        -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+        transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+    }
+
+    40%,
+    60%,
+    80% {
+        -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+        transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+    }
+
+    100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+@keyframes tada {
+    0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        -ms-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+
+    10%,
+    20% {
+        -webkit-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+        -ms-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+        transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+    }
+
+    30%,
+    50%,
+    70%,
+    90% {
+        -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+        -ms-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+        transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+    }
+
+    40%,
+    60%,
+    80% {
+        -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+        -ms-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+        transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+    }
+
+    100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        -ms-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+.tada {
+    -webkit-animation-name: tada;
+    animation-name: tada;
+    margin-top: 20px;
+}
+.card-body{
+    padding: 0px;
+}
