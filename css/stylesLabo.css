@@ -98,8 +98,7 @@ tbody tr:hover {
 
 .footer-login {
     margin-block-start: 285px;
-    position: center;
-    bottom: 5;
+    
     width: 100%;
     height: 20px;
     background-color: #d3d1d1;
@@ -109,6 +108,7 @@ tbody tr:hover {
     padding-top: 4px;
     padding-bottom: 10px;
     font-family: serif;
+    margin-top: 500px;
 }
 
 .g-10 {
