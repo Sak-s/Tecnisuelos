@@ -30,7 +30,15 @@
     --bs-btn-border-color: none;
     --bs-btn-border-radius: 10.375rem;
 }
-
+.btn-third{
+    --bs-btn-bg: #304a6e;
+    --bs-btn-hover-bg: #668dc0;
+    --bs-btn-border-color: none;
+    --bs-btn-border-radius: 10.375rem; 
+    color: #d3d1d1;
+    padding: 5px 50px;
+     margin: 15px 50px;  
+}
 .style-title {
     font-size: 4.5rem;
 }
@@ -92,7 +100,10 @@ a {
     z-index:1;
     
 }
-.container-login  h1 {margin-top:0;}
+.container-login  h1 {
+    margin-top:0; 
+    text-align: center;
+}
 .container-login  {
   position:relative;
   padding-top:50px;
@@ -102,12 +113,10 @@ a {
 
 .container-login .container {
     position:relative;
-    display: flex;
-    margin: 100px 500px 100px 500px; 
+    z-index:2;
+    margin: 100px 535px 10px 540px;
     border-radius: 20px;
     background-color: #bdd6ff93;
-    align-items: center;
-    z-index:2;
   }
 
 @media screen and (max-width: 768px) {
