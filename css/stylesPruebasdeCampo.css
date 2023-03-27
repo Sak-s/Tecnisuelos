@@ -254,22 +254,6 @@
     font-size: xx-large;
   }
 
-  #container-pdf{
-    display: flex;
-    align-content: center;
-    margin:0 250px 0 250px ;
-  
-   
-
-  }
-  .pdfview{
-    margin: auto;
-    display: block;
-    width: 500px;
-    height: 500px;
-    border-radius: 30px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1) 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
   .footer-login {
     margin-top: 500px;
     margin-block-start: 615px;

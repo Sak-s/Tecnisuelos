@@ -43,6 +43,7 @@
       </div>
     </nav>
   </header>
+  <form action="index.html">
   <section class="container-login">
     <div class="img"></div>
     <div class="container">
@@ -51,10 +52,10 @@
       <div class="row">
 
         <div class="col">
-          <input type="email" class="form-control" placeholder="Nombre">
+          <input type="text" class="form-control" placeholder="Nombre" required>
         </div>
         <div class="col">
-            <input type="email" class="form-control" placeholder="Apellido">
+            <input type="text" class="form-control" placeholder="Apellido" required>
           </div>
         
       </div>
@@ -63,10 +64,10 @@
       <div class="row">
         
         <div class="col">
-          <input type="email" class="form-control" placeholder="Numero">
+          <input type="tel" class="form-control" placeholder="Numero" required>
         </div>
         <div class="col">
-            <input type="email" class="form-control" placeholder="Dirección">
+            <input type="text" class="form-control" placeholder="Dirección" required>
           </div>
         
       </div>
@@ -74,35 +75,21 @@
 
       <div class="row">
         <div class="col">
-          <input type="password" class="form-control" placeholder="Fecha">
+          <input type="date" class="form-control" placeholder="Fecha" required>
         </div>
         <div class="col">
-            <input type="password" class="form-control" placeholder="Correo">
+            <input type="email" class="form-control" placeholder="Correo" required>
           </div>
 
         </div>
-
-
-<!--
-      </div>
-
-      <div class="row">
-          <div class="col"> 
-          <input class="btn btn-primary" type="submit" value="Ingresar">
-        </div>
-        -->
-
 
         <div >
-                    <a class="btn btn-third" href="/index.html" type="submit">Registrar</a>
+          <input class="btn btn-third"  type="submit" value="Registrar">
         </div>
-                  
-        <!-- <div class="row ">
-          <p><a href="/Agendar.html">No tengo cuenta</a></p>
-        </div>  -->
-     
+
     </div>
   </section>
+</form>
 
 </body>
 

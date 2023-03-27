@@ -1,5 +1,6 @@
 .hv-background {
     background:   #dcebfc85;
+    color: #0400ff77;
 }
 .container-logo{
     align-items: center;
@@ -37,7 +38,7 @@ input.btn-primary {
     --bs-btn-border-radius: 10.375rem; 
     color: #d3d1d1;
     padding: 5px 50px;
-     margin: 15px 30px 15px 270px;  
+     margin: 15px 50px;  
 }
 
 .style-title {
@@ -79,13 +80,6 @@ a {
     text-decoration: none;
     color: #000;
 }
-
-.container-login{
-    width: 100%;
-    height: 70vh;
-    display: flex;
-}
-
 input.form-control{
     margin-right: 50px;
     margin-top: 10px;
@@ -106,21 +100,34 @@ input.form-control{
     left:0;
     z-index:1;
 }
-.container-login  h1 {
-   text-align: center;
-    margin-top:0;
+.container-login  h13
+ {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.container-login  {
+/* .container-login  {
   position:relative;
   padding-top:50px;
   padding-bottom:50px;
   font-family: serif;
+  background-color: #e9a81b;
+} */
+
+.container-login{
+    font-family: serif;
+    position: relative;
+    padding-top:50px;
+    padding-bottom:50px;
+    width: 100%;
+    height: 85vh;
+    display: flex;
 }
+
 
   .container-login .container {
     position:relative;
     z-index:2;
-    margin: 95px 450px 0px 450px;
+    max-width: 1000px;
+    margin: 90px 525px 100px 530px;
     border-radius: 20px;
     background-color: #bdd6ff93;
 

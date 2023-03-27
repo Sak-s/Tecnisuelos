@@ -84,7 +84,7 @@ input.form-control{
     margin-right: 50px;
     margin-top: 10px;
     display: flex;
-background-color: #3cff0093;
+
 }
 
 .container-login .img{
@@ -117,7 +117,6 @@ background-color: #3cff0093;
     width: 100%;
     height: 85vh;
     display: flex;
-    background-color: #d31a1a77;
 }
 
 
@@ -125,7 +124,7 @@ background-color: #3cff0093;
     position:relative;
     z-index:2;
     max-width: 1000px;
-    margin: 90px 525px 50px 530px;
+    margin: 90px 525px 100px 530px;
     border-radius: 20px;
     background-color: #bdd6ff93;
 

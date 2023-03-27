@@ -43,6 +43,7 @@
       </div>
     </nav>
   </header>
+  <form action="index.html">
   <section class="container-login">
     <div class="img"></div>
     <div class="container">
@@ -51,10 +52,10 @@
       <div class="row">
 
         <div class="col">
-          <input type="email" class="form-control" placeholder="Razón Social">
+          <input type="text" class="form-control" placeholder="Razón Social"   >
         </div>
         <div class="col">
-            <input type="email" class="form-control" placeholder="NIT">
+            <input type="number" class="form-control" placeholder="NIT" required>
           </div>
         
       </div>
@@ -63,10 +64,10 @@
       <div class="row">
         
         <div class="col">
-          <input type="email" class="form-control" placeholder="Numero">
+          <input type="number" class="form-control" placeholder="Numero"  required  pattern="{1,10}">
         </div>
         <div class="col">
-            <input type="email" class="form-control" placeholder="Direccion">
+            <input type="text" class="form-control" placeholder="Direccion" required>
           </div>
         
       </div>
@@ -74,19 +75,20 @@
 
       <div class="row">
         <div class="col">
-          <input type="password" class="form-control" placeholder="Fecha">
+          <input type="date" class="form-control" placeholder="Fecha" required>
         </div>
         <div class="col">
-            <input type="password" class="form-control" placeholder="Correo">
+            <input type="email" class="form-control" placeholder="Correo" required>
           </div>
 
         </div>
         <div >
-                    <a class="btn btn-third" href="/index.html" role="button">Registrar</a>
+                    <input class="btn btn-third"  type="submit" value="Registrar">
         </div>
 
     </div>
   </section>
+</form>
 
 </body>
 
