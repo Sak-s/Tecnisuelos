@@ -37,8 +37,11 @@
     --bs-btn-border-radius: 10.375rem; 
     color: #d3d1d1;
     padding: 5px 50px;
-     margin: 15px 50px;  
-}
+    margin: 15px 50px;
+    display: inline-table;
+    inline-size: -webkit-fill-available;
+}  
+
 .style-title {
     font-size: 4.5rem;
 }
