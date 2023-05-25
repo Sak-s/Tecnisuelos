@@ -10,12 +10,12 @@
         crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="CSS/stylesLabo.css">
-    <title>Laboratorista</title>
+    <link rel="stylesheet" href="CSS/stylesHistoInformes.css">
+    <title>Historial</title>
 </head>
 
 <body class="background">
-    <header class="hv-background background">
+    <header class="hv-background background wrapper">
         <nav class="navbar navbar-expand-lg navbar-light ">
             <div class="container container-fluid">
                 <a class="navbar-brand" href="/"><img id="logoTec" src="Imagenes/20230309_161828.png" alt="Logo"
@@ -33,7 +33,7 @@
                                 Laboratorista
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="index.html">Salir</a></li>
+                                <li><a class="dropdown-item" href="laboratorista.html">Atras</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -41,19 +41,27 @@
             </div>
         </nav>
     </header>
-    <div class="container grid"  style="width: 25rem; white-space: pre-line;  margin-top: 117px  ">
-        <div class="row gap-3 mb-3">
-            <div class="card car-img  align-items-center col background-cuadro ">
-               <a href="HistoInformes.html"><img class="animated tada" width="80" height="80" src="/Imagenes/iconoHistorialInformes.png" alt=""></a>
-                <div class="card-body">
-                    <h5 class="card-title">Historial</h5>
-                </div>
-            </div>
-            <div class="card align-items-center col background-cuadro">
-                <a href="NuevoInforme.html"><img class="animated tada " width="80" height="80" src="/Imagenes/iconoNuevoInforme.png" alt=""></a>
-                <div class="card-body">
-                    <h5 class="card-title">Nuevo Informe</h5>
-                </div>
+    <div id="wrapper">
+        <h1 class="container title">Historial de Informes</h1>
+
+        <div id="container-pdf">
+            <object class="pdfview" type="application/pdf" data="http://www.mag.go.cr/bibliotecavirtual/P33-9965.pdf"></object>
+            <object class="pdfview" type="application/pdf" data="https://inta.gob.ar/sites/default/files/script-tmp-tcnicas_de_toma_y_remisin_de_muestras_de_suelos.pdf"></object>
+        </div>
+       
+        <div id="info">
+            <input type="checkbox" id="menu" name="menu" class="menu-checkbox">
+            <div class="menu">
+                <label class="menu-toggle" for="menu"><span>Toggle</span></label>
+                <ul>
+                    <li>
+                        <a href="NuevoInforme.html" class="btn btn-secondarys">Nuevo Informe</a>
+                    </li>
+                    <li>
+                        <a href="PruebasdeCampo.html" class="btn btn-secondarys">Pruebas de Campo</a>
+                    </li>
+                    
+                </ul>
             </div>
         </div>
     </div>
@@ -64,7 +72,5 @@
             <p>© 2023. By Tatiana, Jhonatan, Mateo, Santiago</p>
         </div>
     </div>
-    </div>
 </footer>
-
 </html>

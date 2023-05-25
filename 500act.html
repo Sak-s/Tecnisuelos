@@ -10,12 +10,12 @@
         crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="CSS/stylesLabo.css">
-    <title>Laboratorista</title>
-</head>
+    <link rel="stylesheet" href="CSS/styles500act.css">
+    <title>500act</title>
+</head> 
 
 <body class="background">
-    <header class="hv-background background">
+    <header class="hv-background background wrapper">
         <nav class="navbar navbar-expand-lg navbar-light ">
             <div class="container container-fluid">
                 <a class="navbar-brand" href="/"><img id="logoTec" src="Imagenes/20230309_161828.png" alt="Logo"
@@ -33,7 +33,7 @@
                                 Laboratorista
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="index.html">Salir</a></li>
+                                <li><a class="dropdown-item" href="laboratorista.html">Atras</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -41,30 +41,33 @@
             </div>
         </nav>
     </header>
-    <div class="container grid"  style="width: 25rem; white-space: pre-line;  margin-top: 117px  ">
-        <div class="row gap-3 mb-3">
-            <div class="card car-img  align-items-center col background-cuadro ">
-               <a href="HistoInformes.html"><img class="animated tada" width="80" height="80" src="/Imagenes/iconoHistorialInformes.png" alt=""></a>
-                <div class="card-body">
-                    <h5 class="card-title">Historial</h5>
-                </div>
-            </div>
-            <div class="card align-items-center col background-cuadro">
-                <a href="NuevoInforme.html"><img class="animated tada " width="80" height="80" src="/Imagenes/iconoNuevoInforme.png" alt=""></a>
-                <div class="card-body">
-                    <h5 class="card-title">Nuevo Informe</h5>
-                </div>
+    <div id="wrapper">
+       
+        <div id="info">
+            <input type="checkbox" id="menu" name="menu" class="menu-checkbox">
+            <div class="menu">
+                <label class="menu-toggle" for="menu"><span>Toggle</span></label>
+                <ul>
+                    <li>
+                        <a href="HistoInformes.html" class="btn btn-secondarys">Historial de Informes</a>
+                    </li>
+                    <li>
+                        <a href="PruebasdeCampo.html" class="btn btn-secondarys">Pruebas de Campo</a>
+                    </li>
+                    
+                </ul>
             </div>
         </div>
     </div>
+
+    <section class="container-login"> 
+    <div class="error-container">
+        <h1>500</h1>
+        <h2>Internal Server Error</h2>
+        <p>Lo sentimos ha ocurrido un fallo en el servidor.</p>
+        <a href="index.html">Volver a la pagina de inicio</a>
+    </div>
+    <img id="rr8" src="Imagenes/rtd22.png" alt="Imagen">
 </body>
-<footer class="footer">
-    <div class="justify-content-center">
-        <div class="col-auto footer-login ">
-            <p>© 2023. By Tatiana, Jhonatan, Mateo, Santiago</p>
-        </div>
-    </div>
-    </div>
-</footer>
 
 </html>

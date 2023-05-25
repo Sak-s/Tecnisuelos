@@ -10,13 +10,11 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>
-  <title>Inicio</title>
-  <link rel="stylesheet" href="css/stylesInicio.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crear Cuenta</title>
+  <link rel="stylesheet" href="css/stylesCrearCuenta.css">
 </head>
 
 <body>
-
   <header class="hv-background">
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container container-fluid">
@@ -37,42 +35,58 @@
             <li class="nav-item">
               <a class="nav-link btn btn-secondary" href="/">Contacto</a>
             </li>
-            <li class="nav-item">
-              <a class="btn btn-primary" href="/CrearCuenta.html" role="button">Crear Cuenta</a>
-            </li>
+            
           </ul>
         </div>
       </div>
     </nav>
   </header>
-
-  <form action="Administrador.html">
+  <form action="inicio.html">
   <section class="container-login">
     <div class="img"></div>
     <div class="container">
-       <h1><b>Inicio de Sesion</b></h1>
+       <h1><b>Crea tu Cuenta</b></h1>
 
       <div class="row">
+
         <div class="col">
-          <input type="email" class="form-control" placeholder="Correo" required>
+          <input type="text" class="form-control" placeholder="Nombre" required>
         </div>
+        <div class="col">
+            <input type="text" class="form-control" placeholder="Usuario" required>
+          </div>
+        
       </div>
 
+
+      <div class="row">
+        
+        <div class="col">
+          <input type="number" class="form-control" placeholder="Numero"  required  pattern="{1,10}">
+        </div>
+        <div class="col">
+            <input type="text" class="form-control" placeholder="Direccion" required>
+          </div>
+        
+      </div>
+
+
       <div class="row">
         <div class="col">
-          <input type="password" class="form-control" required placeholder="Contraseña">
+          <input type="date" class="form-control" placeholder="Correo" required>
+        </div>
+        <div class="col">
+            <input type="email" class="form-control" placeholder="Contraseña" required>
+          </div>
+
         </div>
         <div >
-            <input class="btn btn-third" type="submit" value="Ingresar">
+                    <input class="btn btn-third"  type="submit" value="Crear">
         </div>
-                  
-        <div class="row ">
-          <p><a href="/RecupContra.html">Olvide mi contraseña</a></p>
-        </div> 
-      </div>
+
     </div>
   </section>
-</form> 
+</form>
 
 </body>
 
